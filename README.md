@@ -1,39 +1,35 @@
 # ctrotech
 
-I build TypeScript libraries and full-stack applications.
+I write TypeScript libraries and full-stack applications.
+
+Creator of the **ctrovalidate** ecosystem -- form validation for JS/TS with framework bindings for React, Vue, Svelte, and Next.js. Also built **ctrodb** (reactive client-side database), **ctroenv** (env management toolkit), **ctrodoc** (docs framework), and **vjsRouter** (vanilla JS SPA router). All published on npm.
+
+I work on contract projects too. Recent ones include a PDF-generation platform (Next.js, Drizzle, WebSockets, Playwright), a real-time chat app, a WhatsApp automation tool, and a few e-commerce systems.
+
+Most of my work lives in private repos. What's public here is the stuff I've packaged up for others to use.
 
 ---
 
-## Libraries
+## npm packages
 
-These are packages I've published on npm:
-
-**ctrovalidate** — Form validation for JavaScript and TypeScript. Zero-dependency core engine with framework bindings for React, Vue, Svelte, and Next.js. Comes with 22 built-in rules, async validation, and i18n support. Works in the browser, Node.js, and server runtimes.
-
-**ctrodb** — Reactive client-side database for browser and Node.js environments. IndexedDB-backed persistence with a MongoDB-like query API, full-text search, relation support, and signal-based reactivity. Over 190 tests.
-
-**ctroenv** — Environment variable management toolkit. Define schemas once, get validated typesafe config, auto-generated documentation, and CLI tooling. Integrates with Next.js, Node.js, and Vite.
-
-**ctrodoc** — Documentation framework for TypeScript libraries. Drop it into any project, write content in MDX, and get a searchable docs site with API reference generation and theming.
-
-**vjsRouter** — File-system based SPA router for vanilla JavaScript. Define routes in a pages directory, run the CLI to generate a manifest, and get SSR support without a framework.
-
----
-
-## Selected contract work
-
-- PDF generation platform (Next.js, Drizzle, Neon, WebSockets, Playwright, Auth.js)
-- Real-time chat application (Next.js, Prisma, Socket.IO, TanStack Query)
-- E-commerce admin platform (Next.js, Prisma, Supabase, Nodemailer)
-- WhatsApp automation tool (Next.js, Firebase, BullMQ, Redis)
-- Full-stack registration system with payment processing (React, tRPC, Drizzle, Flutterwave)
-- Academic ecosystem platform (Next.js, Drizzle, Cloudinary, Sentry)
+| package | downloads |
+|---------|-----------|
+| [ctrovalidate-core](https://www.npmjs.com/package/ctrovalidate-core) | validation engine, 22 rules |
+| [ctrovalidate-react](https://www.npmjs.com/package/ctrovalidate-react) | React bindings |
+| [ctrovalidate-vue](https://www.npmjs.com/package/ctrovalidate-vue) | Vue 3 composable |
+| [ctrovalidate-svelte](https://www.npmjs.com/package/ctrovalidate-svelte) | Svelte stores |
+| [ctrovalidate-next](https://www.npmjs.com/package/ctrovalidate-next) | Next.js Server Actions |
+| [ctrovalidate-browser](https://www.npmjs.com/package/ctrovalidate-browser) | HTML-first browser adapter |
+| [ctrodb](https://www.npmjs.com/package/ctrodb) | reactive client-side database |
+| [@ctroenv/core](https://www.npmjs.com/package/@ctroenv/core) | env management |
+| [ctrodoc](https://www.npmjs.com/package/ctrodoc) | docs framework |
+| [vjsrouter](https://www.npmjs.com/package/vjsrouter) | vanilla JS router |
 
 ---
 
-## Currently
+## now
 
-Writing more tests, publishing more packages, and chipping away at a few client projects. Always experimenting with something — lately its been real-time systems and AI tooling.
+Writing tests, publishing packages, and building client apps. Always tinkering with something -- lately its been real-time systems and AI tooling.
 
 ---
 
